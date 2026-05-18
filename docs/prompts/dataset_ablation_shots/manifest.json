@@ -1,0 +1,176 @@
+[
+  {
+    "prompt_version": "prompt_shots_s1",
+    "source": "prompt",
+    "set_id": 1,
+    "unsafe_category": "H",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 684,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 921,
+        "labels": {
+          "H": 3,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      }
+    ],
+    "path": "shot_sets/prompt_shots_s1.txt"
+  },
+  {
+    "prompt_version": "prompt_shots_s2",
+    "source": "prompt",
+    "set_id": 2,
+    "unsafe_category": "S",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 688,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 220,
+        "labels": {
+          "H": 0,
+          "S": 3,
+          "V": 0,
+          "SH": 0
+        }
+      }
+    ],
+    "path": "shot_sets/prompt_shots_s2.txt"
+  },
+  {
+    "prompt_version": "prompt_shots_s3",
+    "source": "prompt",
+    "set_id": 3,
+    "unsafe_category": "SH",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 1032,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 185,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 3
+        }
+      }
+    ],
+    "path": "shot_sets/prompt_shots_s3.txt"
+  },
+  {
+    "prompt_version": "response_shots_s1",
+    "source": "response",
+    "set_id": 1,
+    "unsafe_category": "H",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 694,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 688,
+        "labels": {
+          "H": 1,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      }
+    ],
+    "path": "shot_sets/response_shots_s1.txt"
+  },
+  {
+    "prompt_version": "response_shots_s2",
+    "source": "response",
+    "set_id": 2,
+    "unsafe_category": "S",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 129,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 93,
+        "labels": {
+          "H": 0,
+          "S": 2,
+          "V": 0,
+          "SH": 0
+        }
+      }
+    ],
+    "path": "shot_sets/response_shots_s2.txt"
+  },
+  {
+    "prompt_version": "response_shots_s3",
+    "source": "response",
+    "set_id": 3,
+    "unsafe_category": "V",
+    "examples": [
+      {
+        "kind": "safe",
+        "row_index": 334,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 0,
+          "SH": 0
+        }
+      },
+      {
+        "kind": "unsafe",
+        "row_index": 163,
+        "labels": {
+          "H": 0,
+          "S": 0,
+          "V": 2,
+          "SH": 0
+        }
+      }
+    ],
+    "path": "shot_sets/response_shots_s3.txt"
+  }
+]
