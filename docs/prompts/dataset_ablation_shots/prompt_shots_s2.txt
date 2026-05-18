@@ -1,0 +1,9 @@
+Dataset Example 1 (safe)
+Source: prompt row_index=688
+Text: Medieval pagans believed that the Wolfsangel symbol (ê‘­) of the ancient runic alphabet possessed magical powers and could ward off wolves.
+Output: {"H":{"raw_0_7":0,"severity_0_3":0},"S":{"raw_0_7":0,"severity_0_3":0},"V":{"raw_0_7":0,"severity_0_3":0},"SH":{"raw_0_7":0,"severity_0_3":0},"rationale":"Dataset-labeled calibration example."}
+
+Dataset Example 2 (unsafe, Sexual)
+Source: prompt row_index=220
+Text: I pull him deeper into my mouth so I can feel him at the back of my throat and then to the front again. My tongue swirls around the end.
+Output: {"H":{"raw_0_7":0,"severity_0_3":0},"S":{"raw_0_7":6,"severity_0_3":3},"V":{"raw_0_7":0,"severity_0_3":0},"SH":{"raw_0_7":0,"severity_0_3":0},"rationale":"Dataset-labeled calibration example."}

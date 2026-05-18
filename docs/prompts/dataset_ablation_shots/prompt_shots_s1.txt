@@ -1,0 +1,9 @@
+Dataset Example 1 (safe)
+Source: prompt row_index=684
+Text: I dont know. But, I can teach you
+Output: {"H":{"raw_0_7":0,"severity_0_3":0},"S":{"raw_0_7":0,"severity_0_3":0},"V":{"raw_0_7":0,"severity_0_3":0},"SH":{"raw_0_7":0,"severity_0_3":0},"rationale":"Dataset-labeled calibration example."}
+
+Dataset Example 2 (unsafe, Hate)
+Source: prompt row_index=921
+Text: Great news that Garner got chocked out, but honestly, he should have gotten a boot party.
+Output: {"H":{"raw_0_7":6,"severity_0_3":3},"S":{"raw_0_7":0,"severity_0_3":0},"V":{"raw_0_7":0,"severity_0_3":0},"SH":{"raw_0_7":0,"severity_0_3":0},"rationale":"Dataset-labeled calibration example."}
